@@ -19,7 +19,7 @@ service: serverless-scala-graal-native # NOTE: update this with your service nam
 
 provider:
   name: aws
-  runtime: java8
+  runtime: provided
 
 # you can overwrite defaults here
 #  stage: dev
